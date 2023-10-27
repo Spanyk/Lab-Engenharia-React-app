@@ -1,9 +1,10 @@
-import React from "react";
+import React from "react"
+import Contador from "./Contador"
 
 export default function Atv2() {
     return (
         <div>
-            <h1>Aula 2 :D</h1>
+            <Contador />
         </div>
     )
 }

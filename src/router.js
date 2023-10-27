@@ -13,7 +13,6 @@ export default function Router() {
                 <Route path="/" element={<Home />} />
                 <Route path="/exercicio/atv1" element={<Atv1 />} />
                 <Route path="/exercicio/atv2" element={<Atv2 />} />
-
             </Routes>
         </BrowserRouter>
     )

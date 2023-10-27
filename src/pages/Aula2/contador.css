@@ -61,28 +61,19 @@ body {
     margin: 10px 5px 10px 5px;
 }
 
-.button {
-    cursor: pointer;
-    color: #fff;
-    font-weight: bolder; 
-    font-size: 32px;  
-    align-items: center;   
-    border-radius: 20px;
+button#reset {
+    position: absolute;
+    top: 3em;
+    margin-left: 17em;
+    background: none;
+    width: 40px;
+    height: 40px;
     border: none;
-    margin: 7px;
+    cursor: pointer;
 }
 
+#reset img {
+    width: 40px;
+    height: 40px;
+}
 
-.button:first-child {
-    width: 2.5rem;
-    height: 2.4rem;
-    background-color: #2c8904; 
-    margin: 10px;
-    position: relative;
-    bottom: 8px;
-}
-.button:last-child {
-    width: 2rem;
-    height: 2rem;
-    background-color: rgba(255, 115, 0, 0.957);
-}

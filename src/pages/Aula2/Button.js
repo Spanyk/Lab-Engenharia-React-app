@@ -1,26 +1,24 @@
-import React from "react";
+import "./buttons.css";
 
-import { useState } from "react";
+function Button({ value, onChange}) {
 
 
-const Button = () => {
-    const [count, setCount] = useState(0);
-
-    const Plus = () => {
-        setCount(count + 1);
+    const incrementCount = () => {
+        onChange(value + 1); 
+       
     }
 
-    const Minus = () => {
-        setCount(count - 1); 
+    const decrementCount = () => {
+        onChange(value - 1);
     }
-
 
     return(
         <div>
-            <button className="button" type="button" onClick={Plus}>+</button>
-            <button className="button" type="button" onClick={Minus}>-</button>
+            <button className="button" onClick={ incrementCount }>+</button>
+            <button  className="button" onClick={ decrementCount }>-</button>
         </div>
     );
+
 }
 
 export default Button;
