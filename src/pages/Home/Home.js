@@ -15,6 +15,12 @@ export const Home = () => {
                     <li>
                         <Link to="/exercicio/atv2" >Atividade 2</Link>
                     </li>
+                    <li>
+                        <Link to="/exercicio/atv3" >Atividade 3</Link>
+                    </li>
+                    <li>
+                        <Link to="/exercicio/atv4" >Atividade 4 - Calculadora</Link>
+                    </li>
                 </ul>
             </nav>
         </div>
