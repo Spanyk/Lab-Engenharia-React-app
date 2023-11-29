@@ -1,5 +1,5 @@
 import React from "react"
-import Contador from "./contador"
+import Contador from "./Contador"
 
 import { Link } from "react-router-dom";
 

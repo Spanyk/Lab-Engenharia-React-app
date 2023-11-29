@@ -1,7 +1,8 @@
 import React from 'react';
-import Clock from './relogio';
-import TypingEffect from './letreiro';
+import Clock from './Relogio';
+import TypingEffect from './Letreiro';
 import { Link } from "react-router-dom";
+import './relogio.css';
 
 
 export default function Atv1() {
